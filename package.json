@@ -1,0 +1,23 @@
+{
+  "name": "openfin-wdio-testable-example",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "dependencies": {
+    "@wdio/cli": "5.16.2",
+    "@wdio/concise-reporter": "^5.16.5",
+    "@wdio/dot-reporter": "5.16.5",
+    "@wdio/local-runner": "5.16.2",
+    "@wdio/mocha-framework": "5.16.0",
+    "@wdio/sync": "5.16.0",
+    "chai": "4.2.0",
+    "lodash": "4.17.14",
+    "testable-utils": "0.3.7",
+    "webdriverio": "5.16.2"
+  },
+  "devDependencies": {
+    "wdio-chromedriver-service": "^6.0.3"
+  }
+}
